@@ -1,0 +1,31 @@
+{
+  "name": "bot-ecom-whatsapp",
+  "version": "1.0.0",
+  "description": "whatsapp bot ",
+  "start:dev": "npx nodemon",
+  "main": "index.ts",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cedrdjio/Bot-Ecom-Whatsapp.git"
+  },
+  "author": "Cedric DJIOGAP NZOYEM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cedrdjio/Bot-Ecom-Whatsapp/issues"
+  },
+  "homepage": "https://github.com/cedrdjio/Bot-Ecom-Whatsapp#readme",
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.27.2",
+    "cinetpay-nodejs": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@wppconnect-team/wppconnect": "^1.27.2",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
