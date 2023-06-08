@@ -21,20 +21,16 @@ export class Main {
     }
 
      start(client: Whatsapp) {
-        const imageBase64 = this.utils.convertImgTo64Bit('./src/assets/images/produit1.jpg');
+        const imageBase64 = this.utils.convertImgTo64Bit('./src/assets/images/produit2.jpg');
         // Créer le produit
         this.productService.create({
-            price: 79.0,
-            description: `**Ecotaxe incluse** : 1.45 € TTC
-        **Structure** : fer
-        **Assise et dossier** : mousse polyuréthane 25 kg/m³
-        **Recouvrement** : tissu 100% polyester
-        **Pieds (à fixer)**: fer laqué noir`,
+            price: 10000,
+            description:`• **Structure**: PVC\n• **Assise**: PVC et rembourrage en mousse polyuréthane 20 kg/m³\n• **Recouvrement**: PU\n• **Dossier**: PVC\n• **Pieds (à fixer)**: chêne massif laqué`,
             image: `data:image/jpg;base64,${imageBase64}`,
-            name: 'Chaise BIXBY',
+            name: 'Chaise APIA',
             isHidden: false,
             url: 'https://wa.me/c/23762019768',
-            retailerId: 'CH001',
+            retailerId: 'CH002',
             currency: 'XAF',
         }, client);
 

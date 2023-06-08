@@ -5,7 +5,7 @@
   "start:dev": "npx nodemon",
   "main": "index.ts",
   "scripts": {
-    "test": "npm start"
+    "test": "npx nodemon"
   },
   "repository": {
     "type": "git",
