@@ -8,3 +8,4 @@ export interface MessageHandlers {
   sendInvoice(client: Whatsapp, recipient: string): void;
   sendErrorMessage(client: Whatsapp, recipient: string): void;
   }
+export default MessageHandlers;
